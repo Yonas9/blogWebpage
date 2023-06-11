@@ -26,6 +26,8 @@ body{
 }
 .content{
     width: 75%;
+    display: none;
+    
     
 }
 .menu ul{
@@ -33,7 +35,7 @@ body{
     margin: 0;
    padding: 0;
 }
-.menu li{
+ .list{
     padding: 8px;
     margin-bottom: 8px;
     background: #33b5e5;
@@ -54,4 +56,11 @@ body{
     border-radius: 6px;
     padding: 8px;
 
+}
+.list.active {
+    background: tomato;
+}
+
+.column.content.active{
+    display: block;
 }
