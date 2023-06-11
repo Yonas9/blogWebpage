@@ -5,7 +5,7 @@ body{
     background: white;
 }
 .header, .footer{
-    background: gray;
+    background: rgb(2, 2, 59);
     color: azure;
     padding: 15px;
   
@@ -57,8 +57,9 @@ body{
     padding: 8px;
 
 }
-.list.active {
+.menu .list.active {
     background: tomato;
+    box-shadow: 1px 1px 1px 3px lightgrey; /* h-offset v-offset blur spread color*/
 }
 
 .column.content.active{
