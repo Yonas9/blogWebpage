@@ -3,6 +3,7 @@
 }
 body{
     background: white;
+    margin: 20px;
 }
 .header, .footer{
     background: rgb(2, 2, 59);
