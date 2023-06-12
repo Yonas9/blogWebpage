@@ -8,7 +8,7 @@ body{
 .header, .footer{
     background: rgb(2, 2, 59);
     color: azure;
-    padding: 15px;
+    padding: 5px;
   
 }
 
@@ -67,4 +67,10 @@ body{
 
 .column.content.active{
     display: block;
+}
+
+
+.search {
+    padding-bottom: 4px;
+    margin-bottom: 0;
 }
