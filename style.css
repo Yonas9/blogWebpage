@@ -60,6 +60,7 @@ body{
 .menu .list.active {
     background: tomato;
     box-shadow: 1px 1px 1px 3px lightgrey; /* h-offset v-offset blur spread color*/
+    border-radius: 6px;
 }
 
 .column.content.active{
